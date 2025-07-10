@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asep Dhyka</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a></a> ASEP </a>
+        </div>
+        <ul>
+          <li><a href="#about">Tentang Saya</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <h1>HI, I’M Asep Dhyka<span class="highlight"></span></h1>
+          <p>Mahasiswa D3 Teknologi Informasi Universitas Brawijaya dengan minat di Front-End Development.</p>
+          <a href="#portfolio" class="button primary-button"
+            >Lihat Portofolio Saya</a
+          >
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2>Tentang Saya</h2>
+          <div class="about-grid">
+            <div class="about-image">
+              <img
+                src="images/Pas Foto Asep Dhyka.jpg"
+                alt="Foto Profil Nama Anda"
+              />
+            </div>
+            <div class="about-text">
+              <p>
+                Sebagai mahasiswa D3 Teknologi Informasi Universitas Brawijaya
+                dengan ketertarikan kuat pada Front-End Development, saya sedang
+                aktif mengeksplorasi dan memperdalam pemahaman saya tentang
+                bagaimana membangun pengalaman web yang menarik dan fungsional.
+                Saya memiliki dasar yang kuat di HTML, CSS, dan JavaScript,
+                dan saat ini fokus untuk menguasai React.js sebagai framework
+                pilihan saya.
+              </p>
+              <a
+                href="Asepdhyka.pdf"
+                download
+                class="button secondary-button"
+                >Unduh CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2>Keahlian Saya</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <h3>Front-End</h3>
+              <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js</li>
+              </ul>
+            </div>
+            <div class="skill-item">
+              <h3>Tools & Lainnya</h3>
+              <ul>
+                <li>Git</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2>Portofolio Saya</h2>
+          <div class="portfolio-grid">
+            <article class="portfolio-item">
+              <img src="images/porto.png" alt="Proyek Web UMKM" />
+              <h3>Proyek UMKM</h3>
+              <p>
+                Proyek ini untuk memenuhi mata kuliah kewirausahaan mengenai meningkatkan penjualan
+                UMKM.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://asepdhyka.github.io/WarungKabupaten/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button small-button"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/asepdhyka/WarungKabupaten"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button small-button"
+                  >Kode (GitHub)</a
+                >
+              </div>
+            </article>
+      </section>
+
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/asepdhyka/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil LinkedIn"
+            >
+              <img src="images/linkd.jpg" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://github.com/asepdhyka"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil GitHub"
+            >
+              <img src="images/logoG.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> Asep Dhyka. Semua Hak Cipta
+          Dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
